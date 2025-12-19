@@ -12,12 +12,7 @@ body:
       placeholder: ex. Sertha Taweenwattana
     validations:
         required: false
-
-  - type: markdown
-    id: thanks text
-    attributes:
-      value: Thank for taking the time to fill out this bug report!
-
+        
   - type: dropdown
     id: New Feature
     attributes:
