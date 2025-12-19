@@ -11,7 +11,7 @@ body:
       description: What is your name?
       placeholder: ex. Sertha Taweenwattana
     validations:
-        required: false
+        required: true
         
   - type: dropdown
     id: New Feature
