@@ -1,0 +1,52 @@
+name: Feature Report
+description: File a feature report.
+title: "[Feature]: "
+labels: ["feature", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: What is your name?
+      placeholder: ex. Sertha Taweenwattana
+    validations:
+        required: false
+
+  - type: markdown
+    attributes:
+      value: Thank for taking the time to fill out this bug report!
+
+  - type: dropdown
+    id: New Feature
+    attributes:
+      label: Version
+      description: Type of request?
+      options:
+        - New Feature
+        - Bug
+        - Issue
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: OS
+    attributes:
+      label: What is the OS which you want to suggest?
+      multiple: true
+      options:
+        - Mac 
+        - Linux
+        - Android
+        - Steam OS
+        - Windows
+  - type: textarea
+    id: Details
+    attributes:
+      label: What are the details of your suggestion?
+      description: Explain what do you want
+      render: shell
+      placeholder: Feature details!
+
