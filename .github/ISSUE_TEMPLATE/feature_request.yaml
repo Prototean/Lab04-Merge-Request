@@ -1,9 +1,8 @@
+---
 name: New Feature Report
 description: Thanks for taking time to fill out this report!
-title: "[Feature]: "
+title: "[Feature:] "
 labels: "[]"
-assignees:
-  - octocat
 body:
   - type: input
     id: contact
@@ -31,11 +30,12 @@ body:
       default: 0
     validations:
       required: true
+      
   - type: dropdown
-    id: OS
+    id: os_selection
     attributes:
       label: What is the OS which you want to suggest?
-      multiple: true
+      description: Selections
       options:
         - Mac 
         - Linux
@@ -47,6 +47,7 @@ body:
     attributes:
       label: What are the details of your suggestion?
       description: Explain what do you want
-      render: shell
       placeholder: Feature details!
-
+    validations:
+      requireds: true
+---
