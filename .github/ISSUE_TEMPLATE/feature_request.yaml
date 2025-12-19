@@ -15,6 +15,7 @@ body:
         required: false
 
   - type: markdown
+    id: thanks text
     attributes:
       value: Thank for taking the time to fill out this bug report!
 
