@@ -1,8 +1,7 @@
-name: Feature Report
-description: File a feature report.
+name: New Feature Report
+description: Thanks for taking time to fill out this report!
 title: "[Feature]: "
-labels: ["feature", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+labels: "[]"
 assignees:
   - octocat
 body:
