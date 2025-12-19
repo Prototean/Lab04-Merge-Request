@@ -14,7 +14,7 @@ body:
         required: true
         
   - type: dropdown
-    id: New Feature
+    id: New_Feature
     attributes:
       label: Version
       description: Type of request?
@@ -38,7 +38,7 @@ body:
         - Steam OS
         - Windows
   - type: textarea
-    id: Details
+    id: details
     attributes:
       label: What are the details of your suggestion?
       description: Explain what do you want
