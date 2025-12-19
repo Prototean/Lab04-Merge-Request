@@ -12,6 +12,11 @@ body:
       placeholder: ex. Sertha Taweenwattana
     validations:
         required: true
+
+  - type: markdown
+    id: thank_message
+    attributes:
+      values: Thanks for taking the time to fill out this report!
         
   - type: dropdown
     id: New_Feature
